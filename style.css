@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: rgb(206, 186, 137);
+    width: 100vw;
+}
+#survey-form{
+    background-color: dimgray;
+}
+#form-background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+#form-container{
+    width: 700px;
+}
