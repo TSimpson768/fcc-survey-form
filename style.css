@@ -1,13 +1,15 @@
 body{
     text-align: center;
-    background-color: rgb(206, 186, 137);
+    background-color: darkcyan;
     width: 100vw;
+    font-family: 'Roboto', sans-serif;
 }
 #survey-form{
-    background-color: dimgray;
+    background-color: lightblue ;
     width: 700px;
     text-align: left;
     padding: 50px;
+    border-radius: 1%;
 }
 #form-background{
     display: flex;
@@ -22,10 +24,45 @@ body{
 }
 #dropdown{
     background-color: #ffffff;
+    width: 100%;
+    border-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-clip: padding-box;
+}
+
+#dropdown:focus{
+    border-color:  #0000ff;
+    border: 5px;
 }
 input{
     width: 100%;
+
+    background-clip: padding-box;
+}
+input:focus{
+    border-color: #0000ff;
 }
 #comment{
     width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+#comment:focus{
+    border-color: blue;
+}
+#submit{
+ 
+    padding: 7px;
+    background-color: yellow;
+    border: none;
+}
+#submit:hover{
+    background-color: yellowgreen;
+}
+.radio{
+    width: auto;
+}
+
+.box{
+    width: auto;
 }

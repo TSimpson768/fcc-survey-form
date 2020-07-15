@@ -1,6 +1,7 @@
 <head>
     <title>Free Code Camp Survey</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     
 </head>
 
@@ -28,55 +29,56 @@
             Dropdown response
         </label><br>
         <select id="dropdown">
+            <option disabled selected>Choose an option...</option>
             <option>Yes</option>
             <option>No</option>
             <option>I Don't know</option>
         </select><br>
-        <p>Choose one answer for the next 2 questions.</p>
+        <p>What is your chosen option? Pick one.</p>
         <label for="r1">
             Option 1
         </label>
-        <input id="r1" name="radio-input" type="radio" value="Option 1"><br>
+        <input id="r1" name="radio-input" type="radio" value="Option 1" class="radio"><br>
         <label for="r2">
             Option 2
         </label>
-        <input id="r2" name="radio-input" type="radio" value="Option 2"><br>
+        <input id="r2" name="radio-input" type="radio" value="Option 2" class="radio"><br>
         <label for="r3">
             Option 3
         </label>
-        <input id="r3" name="radio-input" type="radio" value="Option 3"><br>
+        <input id="r3" name="radio-input" type="radio" value="Option 3" class="radio"><br>
 
-        <p>Checkboxes</p><br>
+        <p>Which of the following apply to you? Pick 2</p>
 
-        <label for="box1" id="box1-label">
+        <label for="box1" id="box1-label" >
             Checkbox 1:
         </label>
-        <input id="box1" name="Checkboxes" type="checkbox" value="box1"><br>
+        <input id="box1" name="Checkboxes" type="checkbox" value="box1" class="box"><br>
 
 
         <label for="box2" id="box2-label">
             Checkbox 2:
         </label>
-        <input id="box2" name="Checkboxes" type="checkbox" value="box2"><br>
+        <input id="box2" name="Checkboxes" type="checkbox" value="box2" class="box"><br>
 
 
         <label for="box3" id="box3-label">
             Checkbox 3:
         </label>
-        <input id="box3" name="Checkboxes" type="checkbox" value="box3"><br>
+        <input id="box3" name="Checkboxes" type="checkbox" value="box3" class="box"><br>
 
 
         <label for="box4" id="box1-label">
             Checkbox 4:
         </label>
-        <input id="box4" name="Checkboxes" type="checkbox" value="box4"><br>
+        <input id="box4" name="Checkboxes" type="checkbox" value="box4" class="box"><br>
 
         <label for="comment" >
             Any other comments?
         </label><br>
-        <textarea id="comment"  rows="6" cols="70"></textarea><br> 
+        <textarea id="comment"  rows="6" cols="70" placeholder="Lorem Ipsum..."></textarea><br> 
 
-        <input id="submit" type="submit">
+        <input id="submit" type="submit" value="Submit">
         
         
             </form>
