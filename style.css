@@ -42,6 +42,7 @@ body{
 }
 input{
     width: 100%;
+    margin-bottom: 15px;
 
     background-clip: padding-box;
 }
@@ -66,10 +67,12 @@ input:focus{
 }
 .radio{
     width: auto;
+    margin-bottom: 0px;
 }
 
 .box{
     width: auto;
+    margin-bottom: 0px;
 }
 
 @media (max-width: 1000px){
@@ -87,4 +90,7 @@ input:focus{
         
     }
 
+}
+#comment-box{
+    padding-top: 20px;
 }
