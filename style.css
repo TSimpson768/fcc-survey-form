@@ -1,11 +1,11 @@
 body{
     text-align: center;
-    background-color: darkcyan;
-    width: 100vw;
+    background-color: lightgrey;
+    
     font-family: 'Roboto', sans-serif;
 }
 #survey-form{
-    background-color: lightblue ;
+    background-color: #8987e4;
     width: 700px;
     text-align: left;
     padding: 50px;
@@ -15,8 +15,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    padding: 25px;
+ /*   width: 100vw;
+    padding: 25px;*/
 }
 #form-container{
     width: 100px;
@@ -53,7 +53,7 @@ input:focus{
 #submit{
  
     padding: 7px;
-    background-color: yellow;
+    background-color: green;
     border: none;
 }
 #submit:hover{
@@ -65,4 +65,21 @@ input:focus{
 
 .box{
     width: auto;
+}
+
+@media (max-width: 1000px){
+    #survey-form{
+        width: 600px;
+        justify-self: center;
+        
+    }
+}
+@media (max-width: 600px ){
+    #survey-form{
+        width: 90%;
+        padding: 5%;
+        justify-self: center;
+        
+    }
+
 }
