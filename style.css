@@ -1,11 +1,11 @@
 
 body{
     text-align: center;
-    background: blue;
-    opacity: 0.9;
-    background-image: url("images/background.jpg");    
+    background-image:linear-gradient( rgba(150, 158, 158, 0.8), rgba(150, 150, 150, 0.8)),
+     url("images/background.jpg");    
     font-family: 'Roboto', sans-serif;
 }
+
 #survey-form{
     background-color: #8987e4;
     width: 700px;
@@ -18,6 +18,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+
  /*   width: 100vw;
     padding: 25px;*/
 }
